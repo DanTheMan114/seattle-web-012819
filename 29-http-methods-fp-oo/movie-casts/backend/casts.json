@@ -5,10 +5,12 @@
       "title": "CITIZEN KANE",
       "year": "1941",
       "actors": [
-        1,
         2,
         3,
-        4
+        4,
+        12,
+        45,
+        -1
       ]
     },
     {
@@ -598,6 +600,16 @@
       "title": "YANKEE DOODLE DANDY",
       "year": "1942",
       "actors": []
+    },
+    {
+      "year": 1999,
+      "title": "The Matrix",
+      "actors": [
+        400,
+        401,
+        402
+      ],
+      "id": 100
     }
   ],
   "actors": [
