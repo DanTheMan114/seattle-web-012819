@@ -1,0 +1,23 @@
+/*
+prefer classNames that describe what the styling
+represents rather than what the styling looks like.
+what it looks like might change.
+
+.yellow, .orange and .red were bad classnames
+because now our company decided to make things
+look Magenta.
+*/
+.low-priority {
+  background-color: yellow;
+}
+
+.medium-priority {
+  background-color: orange;
+}
+
+.high-priority {
+  background-color: magenta;
+  text-decoration: italic;
+  font-weight: bold;
+  font-size: xx-large;
+}
