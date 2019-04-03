@@ -1,0 +1,7 @@
+.movie-poster {
+  display: inline-block;
+}
+
+.movie-poster img {
+  max-width: 200px;
+}
