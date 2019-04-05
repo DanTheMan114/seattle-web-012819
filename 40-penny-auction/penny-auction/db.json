@@ -1,0 +1,7 @@
+{
+  "auctions": [
+    {"id": 1, "item": "KitchenAid Mixer", "timeleft":8, "bid": 9.01},
+    {"id": 2, "item": "Samsung 11.6\" Chromebook", "timeleft":5, "bid": 8.12},
+    {"id": 3, "item": "50 Voucher Bids", "timeleft":6, "bid": 2.39}
+  ]
+}
