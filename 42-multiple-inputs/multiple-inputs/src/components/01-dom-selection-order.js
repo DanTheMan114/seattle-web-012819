@@ -22,6 +22,7 @@ class DOMSelectionOrder extends Component {
     return ( <div>
       <h2>DOM Selection Order</h2>
       <form onSubmit={this.handleSubmit}>
+        <label><input type="checkbox"/>subscribe?</label>
         Name: <input type="text" placeholder="name"></input>
         City: <input type="text" placeholder="city"></input>
         Bio: <input type="text" placeholder="bio"></input>

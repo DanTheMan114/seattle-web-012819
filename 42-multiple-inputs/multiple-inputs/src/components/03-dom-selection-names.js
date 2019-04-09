@@ -26,7 +26,7 @@ class DOMSelectionNames extends Component {
       <form onSubmit={this.handleSubmit}>
         Name: <input type="text" name="name" placeholder="name"></input>
         City: <input type="text" name="city" placeholder="city"></input>
-         Bio: <input type="text"  name="bio"  placeholder="bio"></input>
+         Bio: <input type="text" name="bio"  placeholder="bio"></input>
         <input type="submit" />
       </form>
     </div> );

@@ -21,8 +21,8 @@ class DOMSeleftionIds extends Component {
     return ( <div>
       <h2>DOM Selection IDs</h2>
       <form onSubmit={this.handleSubmit}>
-        Name: <input id="name" type="text" placeholder="name"></input>
         City: <input id="city" type="text" placeholder="city"></input>
+        Name: <input id="name" type="text" placeholder="name"></input>
         Bio: <input id="bio" type="text" placeholder="bio"></input>
         <input type="submit" />
       </form>

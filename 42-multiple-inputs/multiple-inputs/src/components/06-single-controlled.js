@@ -13,11 +13,18 @@ class SingleControlled extends Component {
   }
 
   onChange(ev) {
-    let name = ev.target.name;
+    let key = ev.target.name;
     let value = ev.target.value;
 
     let state = {}
-    state[name] = value
+    state[key] = value
+
+    // {key: value} will create an object literally {'key': 99}
+    // this.setState({key: value})
+    // {[key]: value} is new syntactic sugar that will evaluate
+    // key="bio"; {[key]: 99} => {'bio': 99}
+    // this.setState({[key]: value})
+
     console.log('single controlled state', state)
     this.setState(state)
   }

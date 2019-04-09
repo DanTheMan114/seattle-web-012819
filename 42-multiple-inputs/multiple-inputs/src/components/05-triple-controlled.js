@@ -38,9 +38,9 @@ class TrippleControlled extends Component {
     return ( <div>
       <h2>Triple Controlled</h2>
       <form onSubmit={this.handleSubmit}>
-        Name: <input type="text" placeholder="name" onChange={this.onNameChange}></input>
-        City: <input type="text" placeholder="city" onChange={this.onCityChange}></input>
-        Bio: <input type="text" placeholder="bio" onChange={this.onBioChange}></input>
+        Name: <input type="text" value={this.state.name} placeholder="name" onChange={this.onNameChange}></input>
+        City: <input type="text" value={this.state.city} placeholder="city" onChange={this.onCityChange}></input>
+        Bio: <input type="text"  value={this.state.bio} placeholder="bio" onChange={this.onBioChange}></input>
         <input type="submit" />
       </form>
     </div> );

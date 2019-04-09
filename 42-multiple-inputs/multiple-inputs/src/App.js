@@ -31,8 +31,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div>
-            Name: {this.state.name} City: {this.state.city} Bio: {this.state.bio}
+            Name: {this.state.name}{' '}
+            City: {this.state.city}{' '}
+            Bio: {this.state.bio}
           </div>
+
+          <input id="name" value="trash1" />
 
           <TotallyUncontrolled updateInfo={this.updateInfo} />
           <DOMSelectionOrder updateInfo={this.updateInfo} />
@@ -41,6 +45,8 @@ class App extends Component {
           <RefReferences updateInfo={this.updateInfo} />
           <TripleControlled updateInfo={this.updateInfo} />
           <SingleControlled updateInfo={this.updateInfo} />
+
+          <input id="name" value="trash2" />
         </header>
       </div>
     );
