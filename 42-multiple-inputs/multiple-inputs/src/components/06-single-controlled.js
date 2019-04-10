@@ -38,9 +38,9 @@ class SingleControlled extends Component {
     return ( <div>
       <h2>Single Controlled</h2>
       <form onSubmit={this.handleSubmit}>
-        Name: <input type="text" name="name" placeholder="name" onChange={this.onChange}></input>
-        City: <input type="text" name="city" placeholder="city" onChange={this.onChange}></input>
-        Bio: <input type="text" name="bio" placeholder="bio" onChange={this.onChange}></input>
+        Name: <input type="text" name="name" placeholder="name" value={this.state.name} onChange={this.onChange}></input>
+        City: <input type="text" name="city" placeholder="city" value={this.state.city} onChange={this.onChange}></input>
+        Bio: <input type="text"  name="bio"  placeholder="bio"  value={this.state.bio}  onChange={this.onChange}></input>
         <input type="submit" />
       </form>
     </div> );
