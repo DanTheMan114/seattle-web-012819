@@ -5,14 +5,12 @@ import UserList from './components/UserList'
 import UserFilter from './components/UserFilter';
 
 class App extends Component {
+  state = {
+    users: [],
+    filtered: []
+  }
+
   constructor() {
-    super()
-
-    this.state = {
-      users: [],
-      filtered: []
-    }
-
     this.getUsers()
 
     this.onSelectMinAge = this.onSelectMinAge.bind(this)
