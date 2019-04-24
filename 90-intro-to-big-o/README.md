@@ -1,4 +1,7 @@
-Big-O Algorhythmic Complexity
+#Big-O Algorhythmic Complexity
+
+![data structure zoo](data-structure-zoo.png)
+
 time - how long things take
 space - how much space does this require?
 
